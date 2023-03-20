@@ -5,12 +5,10 @@ body {
 @media(min-width:768px){
 }
 
-
 #parent {
     margin: auto;
     width: 85%;
 }
-
 
 h1 {
     font-size: 40px;
@@ -42,14 +40,6 @@ body {
     font-family: sans-serif;
 }
 
-.leftindented {
-    padding-left: 20px;
-}
-.leftindented2 {
-    padding-left: 50px;
-}
-
-
 .casecover {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +55,6 @@ body {
     height: auto;
 }
 
-
 .threecontainer {
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +68,6 @@ body {
     margin: 30px 30px;
 }
 
-
 .threecontainerwords {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +80,6 @@ body {
     margin: 30px 30px;
     border-radius: 10px;
 }
-
 
 .centeredcontent {
     display: flex;
@@ -111,7 +98,6 @@ body {
     height: auto;
 }
 
-
 .centeredmockups {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +112,6 @@ body {
     height: auto;
     background-color: rgb(227, 243, 0);
 }
-
 
 .fullcolor {
     display: flex;
@@ -151,8 +136,7 @@ body {
     padding: 80px 0;
 }
 
-
-.lefttext {
+.sectioncopy {
 
 }
 .sectiontitle {
@@ -193,11 +177,9 @@ body {
     height: auto;
 }
 
-
 .listdetails {
 
 }
-
 
 .imgleft {
     width: 50%;
@@ -206,7 +188,6 @@ body {
     width: 100%;
     height: auto;
 }
-
 
 .centerwords {
     display: flex;
@@ -218,4 +199,3 @@ body {
     margin-bottom: 30px;
     border-radius: 10px;
 }
-
