@@ -50,17 +50,17 @@ body {
 }
 
 
-.title {
+.casecover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.title div{
+.casecover div{
     width: 600px;
     text-align: center;
     padding: 20px 0px;
 }
-.title img{
+.casecover img{
     width: 100%;
     height: auto;
 }
@@ -159,13 +159,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-}
-.lefttext div{
     width: 600px;
     text-align: left;
     padding: 20px 0px;
 }
-
+.sectiontitle{
+    
+}
 
 .section {
     display: flex;
