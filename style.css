@@ -117,11 +117,10 @@ body {
 .centeredmockups {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 200px;
     justify-content: center;
     text-align: center;
     margin: auto;
-    margin: 30px 30px;
     background-color: rgb(243, 0, 174);
 }
 .centeredmockups img{
