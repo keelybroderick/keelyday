@@ -66,28 +66,26 @@ body {
 }
 
 
-.three-container {
+.threecontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.three-container div{
+.threecontainer img{
+    width: 100%;
+    height: auto;
     background-color: #f1f1f1;
     width: 300px;
     margin: 30px 30px;
 }
-.three-container img{
-    width: 100%;
-    height: auto;
-}
 
 
-.flex-container {
+.threecontainerwords {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.flex-container div{
+.threecontainerwords div{
     background-color: #f1f1f1;
     width: 300px;
     padding: 20px;
@@ -130,24 +128,23 @@ body {
 }
 
 
-.full {
+.fullcolor {
     display: flex;
-    height: 200px;
+    height: 300px;
     justify-content: center;
+    background: rgb(0, 151, 154);
 }
-
-
-.half {
+.halfcolor {
     display: flex;
     height: 300px;
 }   
-.rightside {
+.rightsidecolor {
     flex: 1;
     background: lightblue;
     text-align: center;
     padding: 80px 0;
 }
-.leftside {
+.leftsidecolor {
     flex: 1;
     background: lightgreen;
     text-align: center;
@@ -165,17 +162,17 @@ body {
 
 }
 
-.section {
+.coplftimgrgt {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.section div{
+.coplftimgrgt div{
     width: 400px;
     margin: 30px 30px;
     border-radius: 10px;
 }
-.section img{
+.coplftimgrgt img{
     width: 100%;
     height: auto;
 }
@@ -215,8 +212,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.centerwords div{
     width: 600px;
     margin-left: 30px;
     margin-right: 30px;
