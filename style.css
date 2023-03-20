@@ -156,15 +156,10 @@ body {
 
 
 .lefttext {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    width: 600px;
-    text-align: left;
-    padding: 20px 0px;
+
 }
 .sectiontitle{
-    
+
 }
 
 .section {
