@@ -66,17 +66,17 @@ body {
 }
 
 
-.smoosh-container {
+.three-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.smoosh-container div{
+.three-container div{
     background-color: #f1f1f1;
     width: 300px;
     margin: 30px 30px;
 }
-.smoosh-container img{
+.three-container img{
     width: 100%;
     height: auto;
 }
@@ -117,10 +117,8 @@ body {
 .centeredmockups {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-.centeredmockups div{
     width: 80%;
+    justify-content: center;
     text-align: center;
     margin: 30px 30px;
 }
