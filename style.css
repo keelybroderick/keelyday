@@ -276,3 +276,95 @@ section {
     text-align: center;
 }
   
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+  }
+
+  .footerchild {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px 10px;
+}
+  .footerchild a{
+    font-weight: lighter;
+    font-size: 10px;
+}
+  
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+footer ul li {
+    margin-right: 20px;
+}
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s ease-in-out;
+}
+footer ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #333;
+    opacity: 0.5;
+    transition: width 0.3s ease-in-out;
+}
+footer ul li a:hover::before {
+    width: 100%;
+}
+footer ul li a.selected {
+    color: blue;
+}
+footer ul li a.selected::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: blue;
+    opacity: 1;
+    transition: none;
+}
+  
+ 
+  
+  
+.logo img {
+    width: 100px;
+    height: auto;
+}
+  
+.byme{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
