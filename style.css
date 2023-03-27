@@ -349,7 +349,11 @@ footer ul li a.selected::before {
 }
   
  
-  
+.biobotleft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
   
 .logo img {
     width: 100px;
