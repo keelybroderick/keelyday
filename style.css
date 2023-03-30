@@ -1,243 +1,33 @@
-body {
-    margin: 0;
-}
-
-@media(min-width:768px){
-}
-
-#parent {
-    margin: auto;
-    width: 85%;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h3 {
-    font-size: 26px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h4 {
-    font-size: 26px;
-    font-weight: lighter;
-    padding-bottom: 20px;
-}
-h5 {
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-body {
-    font-size: 20px;
-    font-family: sans-serif;
-}
-
-.casecover {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.casecover div{
-    width: 600px;
-    text-align: center;
-    padding: 20px 0px;
-}
-.casecover img{
-    width: 100%;
-    height: auto;
-}
-
-.threecontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.threecontainer img{
-    width: 100%;
-    height: auto;
-    background-color: #f1f1f1;
-    width: 300px;
-    margin: 30px 30px;
-}
-
-.threecontainerwords {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.threecontainerwords div{
-    background-color: #f1f1f1;
-    width: 300px;
-    padding: 20px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-
-.centeredcontent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.centeredcontent div{
-    width: 600px;
-    text-align: center;
-    padding: 20px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.centeredcontent img{
-    width: 100%;
-    height: auto;
-}
-
-.centeredmockups {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    background-color: rgb(243, 0, 174);
-}
-.centeredmockups img{
-    width: 100%;
-    height: auto;
-    background-color: rgb(227, 243, 0);
-}
-
-.fullcolor {
-    display: flex;
-    height: 300px;
-    justify-content: center;
-    background: rgb(0, 151, 154);
-}
-.halfcolor {
-    display: flex;
-    height: 300px;
-}   
-.rightsidecolor {
-    flex: 1;
-    background: lightblue;
-    text-align: center;
-    padding: 80px 0;
-}
-.leftsidecolor {
-    flex: 1;
-    background: lightgreen;
-    text-align: center;
-    padding: 80px 0;
-}
-
-.sectioncopy {
-
-}
-.sectiontitle {
-
-}
-.sectiontitle img{
-
-}
-
-.coplftimgrgt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.coplftimgrgt div{
-    width: 400px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.coplftimgrgt img{
-    width: 100%;
-    height: auto;
-}
-
-
-.appdescription {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.appdescription div{
-    width: 400px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.appdescription img{
-    width: 100%;
-    height: auto;
-}
-
-.listdetails {
-
-}
-
-.imgleft {
-    width: 50%;
-}
-.imgleft img{
-    width: 100%;
-    height: auto;
-}
-
-.centerwords {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 600px;
-    margin: auto;
-}
-
-
-
-
-
-  
-header {
+/* nav start */
+.headernav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f0f0f0;
     padding: 20px;
-}
-  
-  
-  
-.logo img {
+}  
+.brandlogo img {
     width: 100px;
     height: auto;
-}
-  
-nav ul {
+} 
+.navul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-}
-  
-nav ul li {
+}  
+.navlist ul li {
     margin-right: 20px;
-}
-  
-nav ul li a {
+}  
+.navlist ul li a {
     color: #333;
     text-decoration: none;
     position: relative;
     font-weight: bold;
     font-size: 16px;
     transition: color 0.2s ease-in-out;
-}
-  
-nav ul li a::before {
+}  
+.navlist ul li a::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -249,15 +39,15 @@ nav ul li a::before {
     transition: width 0.3s ease-in-out;
 }
   
-nav ul li a:hover::before {
+.navlist ul li a:hover::before {
     width: 100%;
 }
   
-nav ul li a.selected {
+.navlist ul li a.selected {
     color: blue;
 }
   
-nav ul li a.selected::before {
+.navlist ul li a.selected::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -268,56 +58,138 @@ nav ul li a.selected::before {
     opacity: 1;
     transition: none;
 }
-  
-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px;
-    text-align: center;
+
+/* about start */
+.about-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
-  
 
+.about-left, .about-right {
+	flex-basis: 49%;
+	min-height: 300px;
+	background-color: #eee;
+	display: flex;
+	align-items: end;
+	justify-content: left;
+}
+.about-left {
+    background-image: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx);
+	background-size: cover;
+	background-position: center;
+}
+@media (max-width: 768px) {
+	.about-left, .about-right {
+		flex-basis: 100%;
+		height: auto;
+	}
+}
+.about-copy {
+  background-color: pink;
+}
 
+.about-right img {
+	max-width: 300px;
 
+}
 
-  
-section {
+/* about end */
+.titletop {
+  text-align: center;
+}
+.titlebottom{
+  text-align: center;
+}
+.container-sectionhover {
+  position: relative;
+  width: 100%;
+}
+/* information sections */
+.aboutinformation {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  height: auto;
+}
+.aboutinformation div{
+  width: 100%;
+  background-color: orange;
+}
+.educationinformation{
+  background-color: orange;
+}
+.aboutinformationleft {
+  background-color: yellow;
+}
+.leftalignabout {
+  text-align: right;
+  background-color: brown;
+}
+.rightalignabout {
+  text-align: left;
+  background-color: grey;
+}
+/* movie sections */
+.bio-coplftimgrgt {
     display: flex;
-    align-items: left;
-    justify-content: space-between;
-    padding: 20px;
-
-    max-width: 100%;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bio-coplftimgrgt div{
+  width: 300px;
+  margin: 10px 10px;
+  background-color: red;
+}
+.bio-center {
+  text-align: center;
+}
+.bio-left, .bio-left ul {
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.bio-right, .bio-right ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
+/* footer start */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	background-color: #f2f2f2;
+	padding: 20px;
+	color: #666;
+}
 .footerchild {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
-    padding: 10px 10px;
 }
-.footerchild a{
-    font-weight: lighter;
-    font-size: 10px;
+.footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
-  
-footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-footer ul li {
-    margin-right: 20px;
+.footer li {
+	margin-right: 20px;
+    margin-top: 5px;
 }
 footer ul li a {
     color: #333;
     text-decoration: none;
     position: relative;
     font-weight: bold;
-    font-size: 16px;
     transition: color 0.2s ease-in-out;
 }
 footer ul li a::before {
@@ -347,93 +219,36 @@ footer ul li a.selected::before {
     opacity: 1;
     transition: none;
 }
-  
- 
-.biobotleft {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+.footerchild a{
+    font-weight: lighter;
+    font-size: 10px;
+} 
+.email-template {
+	display: flex;
 }
-  
-.logo img {
-    width: 100px;
-    height: auto;
+.email-template input[type="text"], .email-template input[type="email"], .email-template input[type="submit"] {
+	border: none;
+	padding: 10px;
+	margin-right: 10px;
+    margin-bottom: 10px;
+	background-color: #fff;
+	color: #666;
 }
-  
-.byme{
-    background-color: white;
-    text-align: left;
-    padding: 20px;
+.email-template input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
 }
 
-
-
-
-
-/* 1. Enable smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-  
-  /* 2. Make nav sticky */
-main > nav {
-    position: sticky;
-    top: 2rem;
-    align-self: start;
-}
-  
-  /* 3. ScrollSpy active styles (see JS tab for activation) */
-.section-nav li.active > a {
-    color: #333;
-    font-weight: 500;
-}
-  
-  /* Sidebar Navigation */
-.section-nav {
-    padding-left: 0;
-    border-left: 1px solid #efefef;
-}
-  
-.section-nav a {
-    text-decoration: none;
-    display: block;
-    padding: .125rem 0;
-    color: #ccc;
-    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
-}
-  
-.section-nav a:hover,
-.section-nav a:focus {
-    color: #666;
-}
-  
-  /** Poor man's reset **/
-* {
-    box-sizing: border-box;
-}
-  
-  
-  
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    margin-left: 1rem;
-}
-  
-  
-  /** page layout **/
-main {
-    display: grid;
-    grid-template-columns: 1fr 15em;
-    max-width: 100em;
-    width: 90%;
-    margin: 0 auto;
-}
-  
-  /** enlarge the sections for this demo, so that we have a long scrollable page **/
-section {
-    padding-bottom: 100px;
+@media screen and (max-width: 700px) {
+	.footer {
+		flex-direction: column;
+		align-items: flex-start;
+    }
+    .footer ul {
+        margin-bottom: 20px;
+    }
+    .email-template {
+        margin-top: 20px;
+    }
 }

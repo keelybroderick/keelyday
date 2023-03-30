@@ -1,0 +1,26 @@
+<div class="landingpage">
+    <div class="landingpageleft">
+
+        <div class="landingpageleftimg">
+            <img src="" alt="">
+        </div>
+
+        <div class="landingpageleftcopy">
+            <h2>Keely Day Broderick</h2>
+            <button>Resume</button>
+        </div>
+
+    </div>
+    <div class="landingpageright">
+
+        <div class="landingpagerightimg">
+            <img src="" alt="">
+        </div>
+
+        <div class="landingpagerightcopy">
+            <h2>About</h2>
+            <p>about me as a child</p>
+        </div>
+
+    </div>
+</div>
