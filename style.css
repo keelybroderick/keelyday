@@ -1,3 +1,66 @@
+/* parent start */
+#parent {
+    margin: auto;
+    width: 85%;
+}
+body {
+    margin: 0;
+}
+
+/* type start */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+h4 {
+    font-size: 26px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+h5 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.leftindented {
+    padding-left: 20px;
+}
+.leftindented2 {
+    padding-left: 50px;
+}
+
+/* title start */
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title div{
+    width: 600px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.title img{
+    width: 100%;
+    height: auto;
+}
+
 /* nav start */
 .headernav {
     display: flex;
@@ -251,4 +314,167 @@ footer ul li a.selected::before {
     .email-template {
         margin-top: 20px;
     }
+}
+
+
+
+/* need to clean */
+.smoosh-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.smoosh-container div{
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 30px 30px;
+}
+.smoosh-container img{
+    width: 100%;
+    height: auto;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container div{
+    background-color: #f1f1f1;
+    width: 300px;
+    padding: 20px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+
+
+.centeredcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centeredcontent div{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+.centeredcontent img{
+    width: 100%;
+    height: auto;
+}
+
+
+.centeredmockups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centeredmockups div{
+    width: 80%;
+    text-align: center;
+    margin: 30px 30px;
+}
+.centeredmockups img{
+    width: 100%;
+    height: auto;
+}
+
+
+.full {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+
+.half {
+    display: flex;
+    height: 300px;
+}   
+.rightside {
+    flex: 1;
+    background: lightblue;
+    text-align: center;
+    padding: 80px 0;
+}
+.leftside {
+    flex: 1;
+    background: lightgreen;
+    text-align: center;
+    padding: 80px 0;
+}
+
+
+.lefttext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.lefttext div{
+    width: 600px;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section div{
+    width: 400px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+.section img{
+    width: 100%;
+    height: auto;
+}
+
+
+.appdescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.appdescription div{
+    width: 400px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+.appdescription img{
+    width: 100%;
+    height: auto;
+}
+
+
+.listdetails {
+
+}
+
+
+.imgleft {
+    width: 50%;
+}
+.imgleft img{
+    width: 100%;
+    height: auto;
+}
+
+
+.centerwords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centerwords div{
+    width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
