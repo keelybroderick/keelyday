@@ -122,6 +122,90 @@ body {
     transition: none;
 }
 
+
+
+/* home start */
+
+.homeopener {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    flex-direction: column;
+}
+.homeopenerfull {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    flex-direction: row;
+}
+.homeopenerleft {
+    flex: 1;
+    background-color: yellow;
+    background: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
+.homeopenerright {
+    flex: 1;
+    background-color: orange;
+    margin: auto;
+}
+  .homeopenershadow {
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+}
+  
+.listofpositions {
+    background-color: pink;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+  
+.openercopy {
+    background-color: purple;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+  
+.openercalltoaction {
+    background-color: brown;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+/* home end */
+  
+.homelogos {
+   width: 100%;
+    height: 200px;
+    background-color: green;
+}
+  
+.homegallery {
+   width: 100%;
+    height: 200px;
+    background-color: purple;
+}
+  
+.titletop {
+    text-align: center;
+}
+  
+.titlebottom{
+      text-align: center;
+}
+
+
+
+
+
+
 /* about start */
 .about-container {
 	display: flex;
