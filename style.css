@@ -14,7 +14,9 @@
   .about-container {
     justify-content: center;
   }
-
+  .about-right img {
+    max-width: 400px;
+  }
 
   .footer {
     flex-direction: column;
@@ -257,7 +259,7 @@ button:visited {
   max-width: 600px;
 }
 .about-right img {
-  max-width: 300px;
+  width: 300px;
   padding-left: 20px;
   padding-top: 50px;
 }
