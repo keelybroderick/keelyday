@@ -1,3 +1,7 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 /* media */
 @media screen and (max-width: 700px) {
   .calltoactions {
@@ -40,26 +44,31 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
 }
 h2 {
   font-size: 32px;
   font-weight: bold;
   padding-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
 }
 h3 {
   font-size: 26px;
   font-weight: bold;
   padding-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
 }
 h4 {
   font-size: 26px;
-      font-weight: lighter;
-      padding-bottom: 20px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
 }
 h5 {
   font-size: 22px;
   font-weight: bold;
   padding-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
 }
 /* parent */
 .parent {
@@ -72,7 +81,7 @@ h5 {
   align-items: center;
   justify-content: space-between;
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 40px;
 }  
 .brandlogo img {
   width: 100px;
