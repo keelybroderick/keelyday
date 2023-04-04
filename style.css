@@ -4,7 +4,6 @@
     max-width: 300px;
   }
 
-
   .about-left, .about-right {
     flex-basis: 100%;
     height: auto;
@@ -34,6 +33,7 @@
 /* body */
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 /* font */
 h1 {
@@ -62,9 +62,9 @@ h5 {
   padding-bottom: 10px;
 }
 /* parent */
-#parent {
-      margin: auto;
-      width: 85%;
+.parent {
+  margin: auto;
+  width: 85%;
 }
 /* nav */
 .headernav {
@@ -224,9 +224,6 @@ button:visited {
   justify-content: center;
 }
   
-  
-  
-
 
 /* about */
 .about-container {
@@ -310,8 +307,6 @@ button:visited {
   text-align: left;
   list-style-type: none;
 }
-
-
 
   
 /* footer */
