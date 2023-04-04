@@ -152,7 +152,7 @@ button:visited {
   
 /* home */
 .homepage {
-  background: url(wallexample.png) no-repeat center center; 
+  background: url(wallexample.png) no-repeat center left; 
   background-size: cover;
   display: flex;
   align-items: center;
