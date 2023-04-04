@@ -1,395 +1,7 @@
-
-#parent {
-    margin: auto;
-    width: 85%;
-}
-body {
-    margin: 0;
-}
-
-/* type start */
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h3 {
-    font-size: 26px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h4 {
-    font-size: 26px;
-    font-weight: lighter;
-    padding-bottom: 20px;
-}
-h5 {
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-body {
-    font-size: 20px;
-    font-family: sans-serif;
-}
-
-.leftindented {
-    padding-left: 20px;
-}
-.leftindented2 {
-    padding-left: 50px;
-}
-
-/* title start */
-.title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.title div{
-    width: 600px;
-    text-align: center;
-    padding: 20px 0px;
-}
-.title img{
-    width: 100%;
-    height: auto;
-}
-
-/* nav start */
-.headernav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 20px;
-}  
-.brandlogo img {
-    width: 100px;
-    height: auto;
-} 
-.navul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}  
-.navlist ul li {
-    margin-right: 20px;
-}  
-.navlist ul li a {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.2s ease-in-out;
-}  
-.navlist ul li a::before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #333;
-    opacity: 0.5;
-    transition: width 0.3s ease-in-out;
-}
-  
-.navlist ul li a:hover::before {
-    width: 100%;
-}
-  
-.navlist ul li a.selected {
-    color: blue;
-}
-  
-.navlist ul li a.selected::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: blue;
-    opacity: 1;
-    transition: none;
-}
-
-
-
-/* home start */
-
-.homeopener {
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color: pink;
-    flex-direction: column;
-}
-.homeopenerfull {
-    display: flex;
-    height: 400px;
-    width: 100%;
-    background-color: red;
-    flex-direction: row;
-}
-.homeopenerleft {
-    flex: 1;
-    background-color: yellow;
-    background: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-  
-.homeopenerright {
-    flex: 1;
-    background-color: orange;
-    margin: auto;
-}
-  .homeopenershadow {
-    width: 100%;
-    height: 100px;
-    background-color: purple;
-}
-  
-.listofpositions {
-    background-color: pink;
-    margin: auto;
-    width: 600px;
-    text-align: center;
-}
-  
-.openercopy {
-    background-color: purple;
-    margin: auto;
-    width: 600px;
-    text-align: center;
-}
-  
-.openercalltoaction {
-    background-color: brown;
-    margin: auto;
-    width: 600px;
-    text-align: center;
-}
-/* home end */
-  
-.homelogos {
-   width: 100%;
-    height: 200px;
-    background-color: green;
-}
-  
-.homegallery {
-   width: 100%;
-    height: 200px;
-    background-color: purple;
-}
-  
-.titletop {
-    text-align: center;
-}
-  
-.titlebottom{
-      text-align: center;
-}
-
-
-
-
-
-
-/* about start */
-.about-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: stretch;
-	height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.about-left, .about-right {
-	flex-basis: 49%;
-	min-height: 300px;
-	background-color: #eee;
-	display: flex;
-	align-items: end;
-	justify-content: left;
-}
-.about-left {
-    background-image: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx);
-	background-size: cover;
-	background-position: center;
-}
-@media (max-width: 768px) {
-	.about-left, .about-right {
-		flex-basis: 100%;
-		height: auto;
-	}
-}
-.about-copy {
-  background-color: pink;
-}
-
-.about-right img {
-	max-width: 300px;
-
-}
-
-/* about end */
-.titletop {
-  text-align: center;
-}
-.titlebottom{
-  text-align: center;
-}
-.container-sectionhover {
-  position: relative;
-  width: 100%;
-}
-/* information sections */
-.aboutinformation {
-  display: flex;
-  background-color: red;
-  width: 100%;
-  height: auto;
-}
-.aboutinformation div{
-  width: 100%;
-  background-color: orange;
-}
-.educationinformation{
-  background-color: orange;
-}
-.aboutinformationleft {
-  background-color: yellow;
-}
-.leftalignabout {
-  text-align: right;
-  background-color: brown;
-}
-.rightalignabout {
-  text-align: left;
-  background-color: grey;
-}
-/* movie sections */
-.bio-coplftimgrgt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.bio-coplftimgrgt div{
-  width: 300px;
-  margin: 10px 10px;
-  background-color: red;
-}
-.bio-center {
-  text-align: center;
-}
-.bio-left, .bio-left ul {
-  text-align: right;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.bio-right, .bio-right ul {
-  text-align: left;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* footer start */
-.footer {
-	display: flex;
-	justify-content: space-between;
-	background-color: #f2f2f2;
-	padding: 20px;
-	color: #666;
-}
-.footerchild {
-    display: flex;
-    flex-direction: column;
-}
-.footer ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-}
-.footer li {
-	margin-right: 20px;
-    margin-top: 5px;
-}
-footer ul li a {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    font-weight: bold;
-    transition: color 0.2s ease-in-out;
-}
-footer ul li a::before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #333;
-    opacity: 0.5;
-    transition: width 0.3s ease-in-out;
-}
-footer ul li a:hover::before {
-    width: 100%;
-}
-footer ul li a.selected {
-    color: blue;
-}
-footer ul li a.selected::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    opacity: 1;
-    transition: none;
-}
-.footerchild a{
-    font-weight: lighter;
-    font-size: 10px;
-} 
-.email-template {
-	display: flex;
-}
-.email-template input[type="text"], .email-template input[type="email"], .email-template input[type="submit"] {
-	border: none;
-	padding: 10px;
-	margin-right: 10px;
-    margin-bottom: 10px;
-	background-color: #fff;
-	color: #666;
-}
-.email-template input[type="submit"] {
-	background-color: #4CAF50;
-	color: #fff;
-	cursor: pointer;
-}
-
 @media screen and (max-width: 700px) {
-	.footer {
-		flex-direction: column;
-		align-items: flex-start;
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .footer ul {
         margin-bottom: 20px;
@@ -397,26 +9,182 @@ footer ul li a.selected::before {
     .email-template {
         margin-top: 20px;
     }
+    .calltoactions {
+        max-width: 300px;
+    }
 }
 
 
-/* work start */
-.container-sectionhover {
+
+
+/* nav */
+.headernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;}  
+    .brandlogo img {
+    width: 100px;
+    height: auto;} 
+    .navul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;}  
+    .navlist ul li {
+    margin-right: 20px;}  
+    .navlist ul li a {
+    color: #333;
+    text-decoration: none;
     position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s ease-in-out;}  
+    .navlist ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #333;
+    opacity: 0.5;
+    transition: width 0.3s ease-in-out;}
+    .navlist ul li a:hover::before {
+    width: 100%;}
+    .navlist ul li a.selected {
+    color: green;}
+    .navlist ul li a.selected::before {
+    content: "";
+    position: absolute;
     width: 100%;
-  
-} 
-.imagefitbox{
-    display: block;
-    width: 100%;
-    height: auto;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: green;
+    opacity: 1;
+    transition: none;
 }
-.image-sectionhover {
+
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #666;}
+  .footerchild {
+  display: flex;
+  flex-direction: column;}
+  .footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: left;}
+  .footer li {
+  margin-right: 20px;
+  margin-top: 5px;}
+  footer ul li a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;}
+  footer ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #333;
+  opacity: 0.5;
+  transition: width 0.3s ease-in-out;}
+  footer ul li a:hover::before {
+  width: 100%;}
+  footer ul li a.selected {
+  color: green;}
+  footer ul li a.selected::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  opacity: 1;
+  transition: none;}
+  .footerchild a{
+  font-weight: lighter;
+  font-size: 10px;} 
+  /* email in footer */
+  .email-template {
+  display: flex;}
+  .email-template input[type="text"], .email-template input[type="email"], .email-template input[type="submit"] {
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: #666;}
+  .email-template input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+/* home */
+.homepage {
+    background: url(https://static.boredpanda.com/blog/wp-content/uploads/2015/07/leaf-sheep-sea-slug-costasiella-kuroshimae-fb__700.jpg) no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;}
+    .calltoactions {
+    background-color: pink;
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;}
+    button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;}
+    /* logo */
+    .homelogos {
+    width: 100%;
+    height: 200px;
+    background-color: green;}
+    /* gallery */
+    .homegallery {
+    width: 100%;
+    height: 200px;
+    background-color: purple;}
+    .titletop {
+    text-align: center;}
+    .titlebottom{
+    text-align: center;}
+    /* work */
+    .container-sectionhover {
+    position: relative;
+    width: 100%;}
+    .imagefitbox{
     display: block;
     width: 100%;
-    height: auto;
-} 
-.overlay-sectionhover {
+    height: auto;}
+    .image-sectionhover {
+    display: block;
+    width: 100%;
+    height: auto;}
+    .overlay-sectionhover {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -428,14 +196,10 @@ footer ul li a.selected::before {
     transition: .5s ease;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3UK5dAo0CM1-qrR49CW3Zi9VXMI0deYQzw&usqp=CAU');
     background-repeat:no-repeat;
-    background-size: cover;
-}
-  
-.container-sectionhover:hover .overlay-sectionhover {
-    opacity: 1;
-    
-}  
-.text-sectionhover {
+    background-size: cover;}
+    .container-sectionhover:hover .overlay-sectionhover {
+    opacity: 1;}
+    .text-sectionhover {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -444,174 +208,10 @@ footer ul li a.selected::before {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
-}  
-.sidebyside-sectionhover {
+    text-align: center;}
+    .sidebyside-sectionhover {
     display: flex;
     justify-content: center;
 }
 
 
-
-
-
-/* need to clean */
-.smoosh-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.smoosh-container div{
-    background-color: #f1f1f1;
-    width: 300px;
-    margin: 30px 30px;
-}
-.smoosh-container img{
-    width: 100%;
-    height: auto;
-}
-
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.flex-container div{
-    background-color: #f1f1f1;
-    width: 300px;
-    padding: 20px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-
-
-.centeredcontent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.centeredcontent div{
-    width: 600px;
-    text-align: center;
-    padding: 20px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.centeredcontent img{
-    width: 100%;
-    height: auto;
-}
-
-
-.centeredmockups {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.centeredmockups div{
-    width: 80%;
-    text-align: center;
-    margin: 30px 30px;
-}
-.centeredmockups img{
-    width: 100%;
-    height: auto;
-}
-
-
-.full {
-    display: flex;
-    height: 200px;
-    justify-content: center;
-}
-
-
-.half {
-    display: flex;
-    height: 300px;
-}   
-.rightside {
-    flex: 1;
-    background: lightblue;
-    text-align: center;
-    padding: 80px 0;
-}
-.leftside {
-    flex: 1;
-    background: lightgreen;
-    text-align: center;
-    padding: 80px 0;
-}
-
-
-.lefttext {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-.lefttext div{
-    width: 600px;
-    text-align: left;
-    padding: 20px 0px;
-}
-
-
-.section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.section div{
-    width: 400px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.section img{
-    width: 100%;
-    height: auto;
-}
-
-
-.appdescription {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.appdescription div{
-    width: 400px;
-    margin: 30px 30px;
-    border-radius: 10px;
-}
-.appdescription img{
-    width: 100%;
-    height: auto;
-}
-
-
-.listdetails {
-
-}
-
-
-.imgleft {
-    width: 50%;
-}
-.imgleft img{
-    width: 100%;
-    height: auto;
-}
-
-
-.centerwords {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.centerwords div{
-    width: 600px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-}
