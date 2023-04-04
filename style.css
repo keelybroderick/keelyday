@@ -1,4 +1,8 @@
+/* media */
 @media screen and (max-width: 700px) {
+    .calltoactions {
+        max-width: 300px;
+    }
     .footer {
         flex-direction: column;
         align-items: flex-start;
@@ -9,131 +13,227 @@
     .email-template {
         margin-top: 20px;
     }
-    .calltoactions {
-        max-width: 300px;
-    }
-}
-
-/* font */
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h3 {
-    font-size: 26px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-h4 {
-    font-size: 26px;
-    font-weight: lighter;
-    padding-bottom: 20px;
-}
-h5 {
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 20px;
 }
 
 
 /* body */
 body {
     margin: 0;
-    font-size: 20px;
-    font-family: sans-serif;
 }
-
-
+  /* font */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h4 {
+    font-size: 26px;
+      font-weight: lighter;
+      padding-bottom: 20px;
+}
+h5 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 /* parent */
 #parent {
-    margin: auto;
-    width: 85%;
+      margin: auto;
+      width: 85%;
 }
-
-
 /* nav */
 .headernav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 20px;}  
-    .brandlogo img {
-    width: 100px;
-    height: auto;} 
-    .navul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;}  
-    .navlist ul li {
-    margin-right: 20px;}  
-    .navlist ul li a {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.2s ease-in-out;}  
-    .navlist ul li a::before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #333;
-    opacity: 0.5;
-    transition: width 0.3s ease-in-out;}
-    .navlist ul li a:hover::before {
-    width: 100%;}
-    .navlist ul li a.selected {
-    color: green;}
-    .navlist ul li a.selected::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: green;
-    opacity: 1;
-    transition: none;
-}
-
-
-/* footer */
-.footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: #f2f2f2;
+  background-color: #f0f0f0;
   padding: 20px;
-  color: #666;}
-  .footerchild {
-  display: flex;
-  flex-direction: column;}
-  .footer ul {
+}  
+.brandlogo img {
+  width: 100px;
+  height: auto;
+} 
+.navul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: left;}
-  .footer li {
+}  
+.navlist ul li {
   margin-right: 20px;
-  margin-top: 5px;}
-  footer ul li a {
+}  
+.navlist ul li a {
   color: #333;
   text-decoration: none;
   position: relative;
   font-weight: bold;
-  transition: color 0.2s ease-in-out;}
-  footer ul li a::before {
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}  
+.navlist ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #333;
+  opacity: 0.5;
+  transition: width 0.3s ease-in-out;
+}
+.navlist ul li a:hover::before {
+  width: 100%;
+}
+.navlist ul li a.selected {
+  color: green;
+}
+.navlist ul li a.selected::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: green;
+  opacity: 1;
+  transition: none;
+}
+  
+  
+  
+/* home */
+.homepage {
+  background: url(https://static.boredpanda.com/blog/wp-content/uploads/2015/07/leaf-sheep-sea-slug-costasiella-kuroshimae-fb__700.jpg) no-repeat center center; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.calltoactions {
+  background-color: pink;
+  padding: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+/* logo */
+.homelogos {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+/* gallery */
+.homegallery {
+  width: 100%;
+  height: 200px;
+  background-color: purple;
+}
+.titletop {
+  text-align: center;
+}
+.titlebottom{
+  text-align: center;
+}
+/* work */
+.container-sectionhover {
+  position: relative;
+  width: 100%;
+}
+.imagefitbox{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.image-sectionhover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-sectionhover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3UK5dAo0CM1-qrR49CW3Zi9VXMI0deYQzw&usqp=CAU');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.container-sectionhover:hover .overlay-sectionhover {
+  opacity: 1;
+}
+.text-sectionhover {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.sidebyside-sectionhover {
+  display: flex;
+  justify-content: center;
+}
+  
+  
+  
+  
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #666;
+}
+.footerchild {
+  display: flex;
+  flex-direction: column;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: left;
+}
+footer li {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+footer ul li a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+footer ul li a::before {
   content: "";
   position: absolute;
   width: 0%;
@@ -143,11 +243,13 @@ body {
   background-color: #333;
   opacity: 0.5;
   transition: width 0.3s ease-in-out;}
-  footer ul li a:hover::before {
-  width: 100%;}
-  footer ul li a.selected {
-  color: green;}
-  footer ul li a.selected::before {
+footer ul li a:hover::before {
+  width: 100%;
+}
+footer ul li a.selected {
+  color: green;
+}
+footer ul li a.selected::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -155,103 +257,26 @@ body {
   bottom: -5px;
   left: 0;
   opacity: 1;
-  transition: none;}
-  .footerchild a{
+  transition: none;
+}
+.footerchild a{
   font-weight: lighter;
-  font-size: 10px;} 
-  /* email in footer */
-  .email-template {
-  display: flex;}
-  .email-template input[type="text"], .email-template input[type="email"], .email-template input[type="submit"] {
+  font-size: 10px;
+} 
+/* email in footer */
+.email-template {
+  display: flex;
+}
+.email-template input[type="text"], .email-template input[type="email"], .email-template input[type="submit"] {
   border: none;
   padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: #fff;
-  color: #666;}
-  .email-template input[type="submit"] {
+  color: #666;
+}
+.email-template input[type="submit"] {
   background-color: #4CAF50;
   color: #fff;
   cursor: pointer;
 }
-
-
-
-
-/* home */
-.homepage {
-    background: url(https://static.boredpanda.com/blog/wp-content/uploads/2015/07/leaf-sheep-sea-slug-costasiella-kuroshimae-fb__700.jpg) no-repeat center center; 
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100vh;}
-    .calltoactions {
-    background-color: pink;
-    padding: 20px;
-    margin-right: 20px;
-    text-align: center;}
-    button {
-    background-color: blue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 2px;
-    margin-right: 10px;}
-    /* logo */
-    .homelogos {
-    width: 100%;
-    height: 200px;
-    background-color: green;}
-    /* gallery */
-    .homegallery {
-    width: 100%;
-    height: 200px;
-    background-color: purple;}
-    .titletop {
-    text-align: center;}
-    .titlebottom{
-    text-align: center;}
-    /* work */
-    .container-sectionhover {
-    position: relative;
-    width: 100%;}
-    .imagefitbox{
-    display: block;
-    width: 100%;
-    height: auto;}
-    .image-sectionhover {
-    display: block;
-    width: 100%;
-    height: auto;}
-    .overlay-sectionhover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3UK5dAo0CM1-qrR49CW3Zi9VXMI0deYQzw&usqp=CAU');
-    background-repeat:no-repeat;
-    background-size: cover;}
-    .container-sectionhover:hover .overlay-sectionhover {
-    opacity: 1;}
-    .text-sectionhover {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;}
-    .sidebyside-sectionhover {
-    display: flex;
-    justify-content: center;
-}
-
-
