@@ -403,6 +403,20 @@ footer ul li a.selected::before {
 
 
 /* BFABW */
+/* title */
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title div{
+  width: 600px;
+  text-align: center;
+}
+.title img{
+  width: 100%;
+  height: auto;
+}
 /* need to clean */
 .smoosh-container {
   display: flex;
