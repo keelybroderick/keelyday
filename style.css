@@ -392,3 +392,201 @@ footer ul li a.selected::before {
   color: #fff;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+/* BFABW */
+/* need to clean */
+.smoosh-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smoosh-container img{
+  max-width: 300px;
+  height: auto;
+padding: 10px;
+}
+
+/* 3 box with words */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container div{
+  background-color: #f1f1f1;
+  width: 300px;
+  padding: 20px;
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+
+/* centered words no box */
+.centeredcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centeredcontent div{
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+}
+.centeredcontent img{
+  width: 100%;
+  height: auto;
+}
+/* max img in middle */
+.centeredmockups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centeredmockups div{
+  width: 80%;
+  text-align: center;
+  margin: 30px 30px;
+}
+.centeredmockups img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* words on left, img right */
+.coplftimgrgt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+background-color: pink;
+margin: 10px 0;
+}
+.coplftimgrgt div{
+width: 500px;
+background-color: grey;
+}
+.coplftimgrgt p, h3 {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+/* color */
+.full {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+.half {
+  display: flex;
+  height: 300px;
+}   
+.rightside {
+  flex: 1;
+  background: lightblue;
+  text-align: center;
+  padding: 80px 0;
+}
+.leftside {
+  flex: 1;
+  background: lightgreen;
+  text-align: center;
+  padding: 80px 0;
+}
+
+
+.lefttext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.lefttext div{
+  width: 600px;
+  text-align: left;
+  padding: 20px 0px;
+}
+
+/* need to clean */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section div{
+  width: 400px;
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+.section img{
+  width: 100%;
+  height: auto;
+}
+
+/* app */
+.appdescription {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.appdescription div{
+  width: 400px;
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+.appdescription img{
+  width: 100%;
+  height: auto;
+}
+
+.imgleft {
+  width: 50%;
+}
+.imgleft img{
+  width: 100%;
+  height: auto;
+}
+
+
+.centerwords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centerwords div{
+  width: 600px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* section titles */
+.lefttitle {
+width: 100%;
+height: 200px;
+display: flex;
+align-items: end;
+justify-content: left;
+background: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx) no-repeat;
+background-size: cover;
+background-position: center;
+}
+.lefttitle h2 {
+padding-left: 20px;
+}
+
+/* need to find home */
+.sectioncopy {
+background-color: orange;
+width: 700px;
+margin-left: 20px;
+}
+
+/* BFABW */
