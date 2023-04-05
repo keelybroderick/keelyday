@@ -208,11 +208,58 @@ button:visited {
   opacity: 0;
   transition: .5s ease;
 
-  background-image: url('/boxes/crafter.jpg');
+  
 
   background-repeat:no-repeat;
   background-size: cover;
 }
+.soloimg {
+  background-image: url('/boxes/soloafter.jpg');
+}
+.oldtownimg {
+  background-image: url('/boxes/oldtownafter.jpg');
+}
+.bfabwimg {
+  background-image: url('/boxes/bfabwafter.jpg');
+}
+.laliciousimg {
+  background-image: url('/boxes/laliciousafter.jpg');
+}
+.indeedimg {
+  background-image: url('/boxes/indeedafter.jpg');
+}
+.academic {
+  background-image: url('/boxes/academicafter.jpg');
+}
+.crimg {
+  background-image: url('/boxes/crafter.jpg');
+}
+.metaimg {
+  background-image: url('/boxes/metaafter.jpg');
+}
+.elffimg {
+  background-image: url('/boxes/elffafter.jpg');
+}
+.hoppyimg{
+  background-image: url('/boxes/hoppyafter.jpg');
+}
+.handimg {
+  background-image: url('/boxes/handafter.jpg');
+}
+.parkpackimg {
+  background-image: url('/boxes/parkpackafter.jpg');
+}
+.cokeimg {
+  background-image: url('/boxes/cokeafter.jpg');
+}
+.flareimg {
+  background-image: url('/boxes/flareafter.jpg');
+}
+
+
+
+
+
 .container-sectionhover:hover .overlay-sectionhover {
   opacity: 1;
 }
