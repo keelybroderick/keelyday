@@ -208,7 +208,7 @@ button:visited {
   opacity: 0;
   transition: .5s ease;
 
-  background-image: src="/boxes/crafter.jpg";
+  background-image: url('/boxes/crafter.jpg');
 
   background-repeat:no-repeat;
   background-size: cover;
