@@ -39,6 +39,21 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+/* back button */
+.back-button {
+  padding: 10px;
+}
+.back-button a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.back-button a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
 /* font */
 h1 {
   font-size: 40px;
