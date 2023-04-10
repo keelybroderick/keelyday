@@ -98,11 +98,15 @@ h5 {
   background-color: white;
   padding: 20px;
 }  
+.brandlogo {
+  margin: 0;
+  padding: 0;
+}
 .brandlogo img {
   width: 100px;
   height: auto;
-  margin: 0;
-  padding: 0;
+} 
+.brandlogo p, .brandlogo a {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
