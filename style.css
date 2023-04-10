@@ -101,6 +101,8 @@ h5 {
 .brandlogo {
   margin: 0;
   padding: 0;
+  padding-bottom: 30px;
+  padding-right: 5px;
 }
 .brandlogo img {
   width: 100px;
