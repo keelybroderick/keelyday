@@ -101,6 +101,11 @@ h5 {
 .brandlogo img {
   width: 100px;
   height: auto;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 } 
 .navul {
   list-style: none;
