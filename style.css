@@ -183,11 +183,15 @@ button:visited {
 .aboutphotoyoung {
   width: 100%;
   max-height: 100px;
+  transition: transform .4s;
+}
+.aboutphotoyoung:hover {
+  transform: scale(1.25);
 }
 .listofpositions {
   display: flex;
-  background-color: DodgerBlue;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 /* logo */
