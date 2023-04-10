@@ -184,6 +184,11 @@ button:visited {
   width: 100%;
   max-height: 100px;
 }
+.listofpositions {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+}
 
 /* logo */
 .homelogos {
