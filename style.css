@@ -58,37 +58,37 @@ body {
 h1 {
   font-size: 60px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 h2 {
   font-size: 40px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 h3 {
   font-size: 30px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 h4 {
   font-size: 20px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 h5 {
   font-size: 20px;
   font-weight: lighter;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 h6 {
   font-size: 15px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-family: 'Bebas Neue', cursive;
 }
 /* parent */
@@ -220,7 +220,6 @@ button:visited {
 /* gallery */
 .homegallery {
   width: 100%;
-  height: 200px;
 }
 .titletop {
   text-align: center;
