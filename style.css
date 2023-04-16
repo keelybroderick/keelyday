@@ -379,53 +379,7 @@ button:visited {
   padding-left: 20px;
   padding-top: 50px;
 }
-/* titling */
-.titletop {
-  text-align: center;
-}
-.titlebottom{
-  text-align: center;
-}
-/* information sections */
-.aboutinformation {
-  display: flex;
-  width: 100%;
-  height: auto;
-}
-.aboutinformation div{
-  width: 100%;
-}
-.leftalignabout {
-  text-align: right;
-}
-.rightalignabout {
-  text-align: left;
-  background-color: grey;
-}
-/* movie section */
-.moviescript {
-  margin-top: 60px;
-  margin-bottom: 60px;}
-.bio-coplftimgrgt {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.bio-coplftimgrgt div{
-  min-width: 200px;
-  margin: 0;
-}
-.bio-center {
-  text-align: center;
-}
-.bio-left, .bio-left ul {
-  text-align: right;
-  list-style-type: none;
-}
-.bio-right, .bio-right ul {
-  text-align: left;
-  list-style-type: none;
-}
+
 
   
 /* footer */
