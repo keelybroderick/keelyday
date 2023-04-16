@@ -602,6 +602,9 @@ background-color: grey;
 .coplftimgrgt p, h3 {
 padding-right: 10px;
 }
+.coplftimgrgt img{
+  width: 100%;
+}
 
 /* color */
 .full {
