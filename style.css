@@ -586,7 +586,16 @@ padding: 10px;
   width: 100%;
   height: auto;
 }
-
+/* altered img in middle */
+.centeredmockupsvtwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.centeredmockupsvtwo div{
+  text-align: center;
+  margin: 30px 30px;
+}
 
 /* words on left, img right */
 .coplftimgrgt {
