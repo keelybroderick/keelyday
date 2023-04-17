@@ -379,10 +379,6 @@ button:visited {
   padding-left: 20px;
   padding-top: 50px;
 }
-
-.rotatenine {
-transform: rotate(90deg);
-}
   
 /* footer */
 footer {
@@ -464,13 +460,6 @@ footer ul li a.selected::before {
 
 
 
-
-
-
-
-
-
-
 /* BFABW */
 /* title */
 .title {
@@ -483,7 +472,7 @@ footer ul li a.selected::before {
   text-align: center;
 }
 .title img{
-  width: 100%;
+  width: 40%;
   height: auto;
 }
 /* need to clean */
