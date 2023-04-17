@@ -380,7 +380,9 @@ button:visited {
   padding-top: 50px;
 }
 
-
+.rotatenine {
+transform: rotate(90deg);
+}
   
 /* footer */
 footer {
