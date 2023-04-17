@@ -54,7 +54,7 @@ body {
   text-decoration: none;
 }
 .back-button a:hover {
-  color: green;
+  color: #435541;
   text-decoration: underline;
 }
 
@@ -112,6 +112,9 @@ h6 {
   margin: auto;
   width: 85%;
 }
+.parent div {
+  padding: 200px 0;
+}
 /* nav */
 .headernav {
   display: flex;
@@ -168,7 +171,7 @@ h6 {
   width: 100%;
 }
 .navlist ul li a.selected {
-  color: green;
+  color: #435541;
 }
 .navlist ul li a.selected::before {
   content: "";
@@ -177,7 +180,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: green;
+  background-color: #435541;
   opacity: 1;
   transition: none;
 }
@@ -245,7 +248,6 @@ h6 {
 }
 
 .aboutphotoyoung {
-  max-width: 200px;
   transition: transform .4s;
   margin: 10px;
 }
@@ -264,16 +266,43 @@ h6 {
   padding-bottom: 20px;
 }
 /* gallery */
-.homegallery {
-  width: 100%;
-  padding-bottom: 20px;
+/* art gallery */
+.clubhouse {
+  box-sizing: border-box;
+  margin: 0;
 }
-.titletop {
-  text-align: center;
+#artgallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
 }
-.titlebottom{
-  text-align: center;
+.columngallery {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
 }
+.columngallery img {
+  vertical-align: middle;
+  margin-top: 8px;
+  filter: grayscale(70%);
+}
+.columngallery:nth-child(even) {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media screen and (max-width: 800px) {
+  .columngallery {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columngallery {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /* work */
 .worklist{
   padding-bottom: 20px;
