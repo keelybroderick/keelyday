@@ -472,13 +472,13 @@ padding: 10px;
 .centeredmockupsvtwo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   justify-content: center;
 }
 .centeredmockupsvtwo div{
   text-align: center;
   margin: 30px 30px;
   padding-bottom: 80px;
+  justify-content: space-between; /* idk about this */
 }
 
 /* words on left, img right */
