@@ -260,10 +260,6 @@ button:visited {
   height: auto;
 }
 
-.roomsolo:hover {
-
-}
-
 .roomoverlay {
   position: absolute;
   top: 0;
@@ -278,7 +274,10 @@ button:visited {
   opacity: 1;
 }
 
-
+.sidebyside-sectionhover {
+  display: flex;
+  justify-content: center;
+}
 
   
 
