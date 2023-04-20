@@ -559,12 +559,27 @@ footer ul li a.selected::before {
 }
 .coplftimgrgt div{
 width: 500px;
-
 }
 .coplftimgrgt p, h3 {
 padding-right: 10px;
 }
 .coplftimgrgt img{
+  width: 100%;
+}
+
+.coplftimgrgtv2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin: 10px 0;
+}
+.coplftimgrgtv2 div{
+  width: 200px;
+}
+.coplftimgrgt p, h3 {
+  padding-right: 10px;
+}
+.coplftimgrgtv2 img{
   width: 100%;
 }
 
@@ -662,35 +677,41 @@ padding-right: 10px;
 display: flex;
 align-items: end;
 justify-content: left;
-background: url(/flowerlogos/ltgrn-flowerpatch.png) no-repeat;
-background-attachment: fixed;
-height: 400px;
-width: 100%;
 }
-/*
+
 .artdirectorflowerfield {
-  background-image: url(/flowerlogos/ltgrn-flowerpatch.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 400px;
+  display: flex;
+  align-items: end;
+  justify-content: left;
   width: 100%;
+  background-image: url(/flowerlogos/ltgrn-flowerpatch.png);
+  
 }
 .designflowerfield {
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  width: 100%;
   background-image: url(/flowerlogos/drkgrn-flowerpatch.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  
 }
 .producerflowerfield {
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  width: 100%;
   background-image: url(/flowerlogos/ltbl-flowerpatch.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  
 }
 .uxflowerfield {
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  width: 100%;
   background-image: url(/flowerlogos/drkbl-flowerpatch.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  
 }
-*/
+
 
 
 /* need to find home */
