@@ -235,10 +235,21 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 500px;
 }
-.worktabs div{
-  width: 150px;
+.worktabs img{
+  width: 50px;
+}
+
+.smoosh-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smoosh-container img{
+  max-width: 300px;
+  height: auto;
+  padding: 10px;
 }
   
 /* home */
@@ -490,7 +501,7 @@ footer ul li a.selected::before {
 .smoosh-container img{
   max-width: 300px;
   height: auto;
-padding: 10px;
+  padding: 10px;
 }
 
 /* 3 box with words */
