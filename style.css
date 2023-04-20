@@ -236,8 +236,15 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.worktabs a{
+.worktabs img, a{
   width: 100px;
+}
+.aboutphotoyoungv2 {
+  transition: transform .4s;
+  margin: 10px;
+}
+.aboutphotoyoungv2:hover {
+  transform: scale(1.25);
 }
   
 /* home */
