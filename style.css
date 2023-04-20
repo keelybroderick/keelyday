@@ -674,6 +674,8 @@ background-position: center;
   background-image: url(/flowerlogos/ltgrn-flowerpatch.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 400px;
+  width: 100%;
 }
 .designflowerfield {
   background-image: url(/flowerlogos/drkgrn-flowerpatch.png);
