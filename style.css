@@ -230,8 +230,15 @@ h6 {
   color: rgb(0, 49, 0);
 }
 
-
-
+/* work tabs */
+.worktabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.worktabs a{
+  width: 20%
+}
   
 /* home */
 .homepage {
@@ -367,7 +374,7 @@ h6 {
   flex-direction: column;
 }
 .about-copy {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-right: 20px;
   padding-bottom: 20px;
   max-width: 600px;
