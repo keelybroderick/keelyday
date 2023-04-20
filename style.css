@@ -230,21 +230,14 @@ h6 {
   color: rgb(0, 49, 0);
 }
 
-/* work tabs */
+/* work tab */
 .worktabs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.worktabs img, a{
+.worktabs a{
   width: 100px;
-}
-.aboutphotoyoungv2 {
-  transition: transform .4s;
-  margin: 10px;
-}
-.aboutphotoyoungv2:hover {
-  transform: scale(1.25);
 }
   
 /* home */
