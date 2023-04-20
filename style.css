@@ -663,13 +663,13 @@ width: 100%;
 display: flex;
 align-items: end;
 justify-content: left;
-/*
-background: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx) no-repeat;
-*/
-background-size: cover;
-background-position: center;
-}
 
+background: url(http://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_octopus_600x300.ashx) no-repeat;
+
+background-size: cover;
+background-position: left;
+}
+/*
 .artdirectorflowerfield {
   background-image: url(/flowerlogos/ltgrn-flowerpatch.png);
   background-repeat: no-repeat;
@@ -692,7 +692,7 @@ background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+*/
 
 
 /* need to find home */
