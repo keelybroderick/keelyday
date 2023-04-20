@@ -670,6 +670,29 @@ background-size: cover;
 background-position: center;
 }
 
+.artdirectorflowerfield {
+  background-image: url(/flowerlogos/ltgrn-flowerpatch.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.designflowerfield {
+  background-image: url(/flowerlogos/drkgrn-flowerpatch.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.producerflowerfield {
+  background-image: url(/flowerlogos/ltbl-flowerpatch.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.uxflowerfield {
+  background-image: url(/flowerlogos/drkbl-flowerpatch.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
 /* need to find home */
 .sectioncopy {
 width: 700px;
