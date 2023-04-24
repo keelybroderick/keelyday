@@ -360,11 +360,10 @@ h6 {
 }
 .about-left, .about-right {
   flex-basis: 50%;
-  min-height: 300px;
   display: flex;
 }
 .about-left {
-  height: 300px;
+  height: auto;
 }
 .about-right {
   display: flex;
@@ -377,8 +376,7 @@ h6 {
   max-width: 600px;
 }
 .about-right img {
-  width: 300px;
-  padding-left: 20px;
+  width: 200px;
   padding-top: 50px;
 }
   
@@ -387,6 +385,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  column-gap: 20px;
 } 
 .positionexplain {
   flex: 1;
