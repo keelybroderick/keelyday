@@ -365,11 +365,7 @@ h6 {
   display: flex;
 }
 .about-left {
-  background: url(keelyleandoor.png) no-repeat center center;
-  background-size: cover;
-  display: flex;
-  background-position: center;
-  align-items: end;
+  width: 100%;
 }
 .about-right {
   display: flex;
