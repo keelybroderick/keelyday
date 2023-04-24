@@ -386,6 +386,7 @@ h6 {
 .positionexplain-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 } 
 .positionexplain {
   flex: 1;
