@@ -251,7 +251,6 @@ h6 {
   height: 100vh;
 }
 .calltoactions {
-  padding: 20px;
   text-align: center;
   margin: auto;
 }
@@ -383,6 +382,21 @@ h6 {
   padding-top: 50px;
 }
   
+
+.positionexplain-container {
+  display: flex;
+  flex-wrap: wrap;
+} 
+.positionexplain {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.positionexplain-image {
+  max-width: 100%;
+  height: auto;
+}
+
 /* footer */
 footer {
   display: flex;
