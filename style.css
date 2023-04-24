@@ -364,7 +364,7 @@ h6 {
   display: flex;
 }
 .about-left {
-  height: auto;
+  max-height: 450px;
 }
 .about-right {
   display: flex;
@@ -394,7 +394,7 @@ h6 {
   box-sizing: border-box;
 }
 .positionexplain-image {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
