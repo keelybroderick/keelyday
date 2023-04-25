@@ -742,6 +742,11 @@ margin-left: 20px;
 .workselect:active {
   transform: scale(1.25); 
 }
+
+
+
+
+
 /* slideshow */
 .mySlides {
   display: none
