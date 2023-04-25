@@ -262,6 +262,9 @@ h6 {
 .aboutphotoyoung:hover {
   transform: scale(1.25);
 }
+.aboutphotoyoung:active {
+  transform: scale(1.25);
+}
 .listofpositions {
   display: flex;
   flex-direction: row;
@@ -395,8 +398,9 @@ h6 {
   box-sizing: border-box;
 }
 .positionexplain-image {
-  max-width: 70%;
+  max-width: 76%;
   height: auto;
+  margin-bottom: 10px;
 }
 
 /* footer */
@@ -690,6 +694,7 @@ display: flex;
 align-items: end;
 justify-content: left;
 margin-top: 200px;
+margin-bottom: 50px;
 }
 
 .artdirectorflowerfield {
