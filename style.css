@@ -364,8 +364,7 @@ h6 {
   display: flex;
 }
 .about-left {
-  max-height: 450px;
-  width: auto;
+  width: 40%;
 }
 .about-right {
   display: flex;
