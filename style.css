@@ -822,3 +822,31 @@ img {
     opacity: 1
   }
 }
+
+
+
+/* new summary container */
+.summarycontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.summary-item {
+  flex: 1 ;
+  margin: 10px;
+}
+.summary-item-h2 {
+  flex: 2 ;
+}
+/* Additional styles for appearance */
+.summarycontainer {
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.summary-item {
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.summary-item-h2 {
+  background-color: #d3d3d3;
+}
