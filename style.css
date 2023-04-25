@@ -363,7 +363,7 @@ h6 {
   flex-basis: 50%;
   display: flex;
 }
-.about-left {
+.about-left img{
   width: 10%;
 }
 .about-right {
