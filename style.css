@@ -359,7 +359,7 @@ h6 {
   height: 720px;
   margin: 0;
   padding: 0;
-  flex-direction: column;
+  flex-direction: row;
 }
 .about-left img{
   width: 30%;
