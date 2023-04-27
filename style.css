@@ -304,7 +304,6 @@ h6 {
 .worklist{
   padding-bottom: 20px;
 }
-
 .container-sectionhover {
   position: relative;
   width: 100%;
@@ -314,7 +313,6 @@ h6 {
   width: 100%;
   height: auto;
 }
-
 .roomoverlay {
   position: absolute;
   top: 0;
@@ -328,7 +326,6 @@ h6 {
 .container-sectionhover:hover .roomoverlay {
   opacity: 1;
 }
-
 .sidebyside-sectionhover {
   display: flex;
   justify-content: center;
@@ -336,7 +333,6 @@ h6 {
   padding-bottom: 50px;
   padding-left: 50px;
 }
-
 
 /* about */
 .about-container {
@@ -355,10 +351,8 @@ h6 {
   width: 125px;
 }
 .about-copy {
-  padding-right: 20px;
-  width: 600px;
+  max-width: 500px;
 }
-
 
 
 .positionexplain-container {
@@ -371,6 +365,7 @@ h6 {
   flex: 1;
   padding: 20px;
   box-sizing: border-box;
+  max-width: 300px;
 }
 .positionexplain-image {
   max-width: 76%;
