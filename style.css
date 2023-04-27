@@ -370,8 +370,8 @@ h6 {
   flex: 1;
 }
 .about-left img{
-
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 .about-right img {
   width: 125px;
