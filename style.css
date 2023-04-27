@@ -8,18 +8,7 @@
     max-width: 300px;
   }
 
-  .about-left, .about-right {
-    flex-basis: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    min-width: 90%;
-  }
-  .about-container {
-    justify-content: center;
-  }
-  .about-right img {
-    max-width: 400px;
-  }
+
 
   .footer {
     flex-direction: column;
@@ -27,9 +16,6 @@
   }
   .footer ul {
     margin-bottom: 20px;
-  }
-  .email-template {
-    margin-top: 20px;
   }
 }
 
@@ -244,7 +230,7 @@ h6 {
 
 /* home */
 .homepage {
-  background: url(wallexample.png) no-repeat center left; 
+  background: url(keelywalking.jpg) no-repeat center left; 
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -363,15 +349,13 @@ h6 {
 }
 .about-left img{
   width: 60%;
+  padding-left: 100px;
 }
 .about-right img {
   width: 125px;
-  padding-top: 60px;
 }
 .about-copy {
-  padding-left: 40px;
   padding-right: 20px;
-  padding-bottom: 20px;
   max-width: 600px;
 }
 
