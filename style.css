@@ -368,7 +368,7 @@ h6 {
 }
 .about-left img{
 
-  object-fit: contain;
+  width: 60%
 }
 .about-right img {
   width: 125px;
