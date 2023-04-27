@@ -362,10 +362,7 @@ h6 {
   padding: 0;
   flex-direction: column;
 }
-.about-container div{
-  width: 100%;
-  height: auto;
-}
+
 .about-right, .about-left {
   flex: 1;
 }
