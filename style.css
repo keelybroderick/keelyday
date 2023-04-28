@@ -345,10 +345,11 @@ h6 {
   margin: 0;
   padding: 0;
   flex-direction: row;
+  text-align: center;
 }
 .about-left img{
   width: 500px;
-
+  padding-right: 30px;
 }
 .about-right img {
   width: 125px;
