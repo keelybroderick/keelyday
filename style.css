@@ -303,7 +303,6 @@ h6 {
 .columngallery img {
   vertical-align: middle;
   margin-top: 8px;
-  filter: grayscale(70%);
 }
 .columngallery:nth-child(even) {
   display: flex;
