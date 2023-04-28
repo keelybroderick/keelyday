@@ -233,17 +233,16 @@ h6 {
 
 /* home */
 .homepage {
-  background: url(keelywalking.jpg) no-repeat center left; 
-  background-size: cover;
   display: flex;
-  justify-content: center;
-  height: 100vh;
-}
-.calltoactions {
+  flex-direction: column;
   text-align: center;
-  margin: auto;
 }
-
+.extralarge {
+  font-size: 80px;
+}
+.keelywalking {
+  width: 30%;
+}
 .aboutphotoyoung {
   transition: transform .4s;
   margin: 10px;
