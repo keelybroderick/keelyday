@@ -60,7 +60,7 @@ body {
 }
 .back-button a:hover {
   color: #435541;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* font */
@@ -210,10 +210,9 @@ h6 {
 .greenbutton {
   background-color: #435541;
   color: white;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 2px;
-  margin-right: 10px;
 }
 .greenbutton:hover {
   background-color: #202C21;
@@ -225,7 +224,7 @@ h6 {
 .bluebutton {
   background-color: #6B8796;
   color: white;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 2px;
   margin-right: 10px;
@@ -262,7 +261,7 @@ h6 {
   font-size: 130px;
 }
 .keelywalking {
-  width: 30%;
+  width: 20%;
 }
 .aboutphotoyoung {
   transition: transform .4s;
