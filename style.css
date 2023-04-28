@@ -306,7 +306,6 @@ h6 {
 }
 .columngallery:nth-child(even) {
   display: flex;
-  flex-direction: column-reverse;
 }
 @media screen and (max-width: 800px) {
   .columngallery {
