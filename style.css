@@ -661,6 +661,8 @@ margin-bottom: 10px;
 }
 /* other */
 .sectioncopy {
+display: flex;
+flex-wrap: wrap;
 width: 700px;
 margin-left: 20px;
 }
