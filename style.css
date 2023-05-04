@@ -372,7 +372,7 @@ h6 {
   margin-bottom: 10px;
 }
 /* footer */
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
@@ -383,25 +383,25 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer ul {
+.footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: left;
 }
-footer li {
+.footer li {
   margin-right: 20px;
   margin-top: 5px;
 }
-footer ul li a {
+.footer ul li a {
   color: #333;
   text-decoration: none;
   position: relative;
   font-weight: bold;
   transition: color 0.2s ease-in-out;
 }
-footer ul li a::before {
+.footer ul li a::before {
   content: "";
   position: absolute;
   width: 0%;
@@ -411,13 +411,13 @@ footer ul li a::before {
   background-color: #333;
   opacity: 0.5;
   transition: width 0.3s ease-in-out;}
-footer ul li a:hover::before {
+.footer ul li a:hover::before {
   width: 100%;
 }
-footer ul li a.selected {
+.footer ul li a.selected {
   color: green;
 }
-footer ul li a.selected::before {
+.footer ul li a.selected::before {
   content: "";
   position: absolute;
   width: 100%;
