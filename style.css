@@ -734,3 +734,41 @@ h1, h2, h3, p{
   display; flex;
   margin: 0 auto;
 }
+
+
+
+
+.centercontent {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.clearbox {
+  height: 200px;
+}
+.toppage {
+  background-image: url("https://images.theconversation.com/files/336133/original/file-20200519-152298-1icmco7.jpg?ixlib=rb-1.1.0&rect=754%2C1166%2C3990%2C1991&q=45&auto=format&w=1356&h=668&fit=crop");
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+.projecttag {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+}
+.threecol {
+  display: flex;
+}
+.twocol {
+  display: flex;
+  flex: space-between;
+}
+.twocol div{
+  width: 400px;
+}
